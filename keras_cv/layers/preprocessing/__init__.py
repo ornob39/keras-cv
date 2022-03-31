@@ -29,6 +29,7 @@ from tensorflow.keras.layers import Resizing
 
 from keras_cv.layers.preprocessing.auto_contrast import AutoContrast
 from keras_cv.layers.preprocessing.channel_shuffle import ChannelShuffle
+from keras_cv.layers.preprocessing.color_jitter import ColorJitter
 from keras_cv.layers.preprocessing.cut_mix import CutMix
 from keras_cv.layers.preprocessing.equalization import Equalization
 from keras_cv.layers.preprocessing.grayscale import Grayscale
@@ -39,7 +40,6 @@ from keras_cv.layers.preprocessing.random_color_degeneration import (
     RandomColorDegeneration,
 )
 from keras_cv.layers.preprocessing.random_cutout import RandomCutout
-from keras_cv.layers.preprocessing.color_jitter import ColorJitter
 from keras_cv.layers.preprocessing.random_hue import RandomHue
 from keras_cv.layers.preprocessing.random_saturation import RandomSaturation
 from keras_cv.layers.preprocessing.random_sharpness import RandomSharpness

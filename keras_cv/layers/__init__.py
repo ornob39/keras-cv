@@ -13,7 +13,7 @@
 # limitations under the License.
 
 from tensorflow.keras.layers import CenterCrop
-from tensorflow.keras.layers import RandomBrightness
+# from tensorflow.keras.layers import RandomBrightness
 from tensorflow.keras.layers import RandomContrast
 from tensorflow.keras.layers import RandomCrop
 from tensorflow.keras.layers import RandomFlip
